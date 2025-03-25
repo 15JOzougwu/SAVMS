@@ -1,0 +1,12 @@
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/install/strip.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/install/local.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/install.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/list_install_components.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/rebuild_cache.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/edit_cache.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/test.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/mqtt_publisher.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/velodyne_plugin.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/model_push.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/my_package_uninstall.dir
+/home/joanna/ros2_ws/src/my_package/build/CMakeFiles/uninstall.dir

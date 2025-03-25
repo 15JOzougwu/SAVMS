@@ -1,0 +1,44 @@
+[0.623s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'my_package']
+[0.623s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff4aa76f850>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['my_package'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff4aa76f850>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff4aa6b1e20>)
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.884s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joanna/ros2_ws/src/my_package/build'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) ignored
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.884s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'my_package' in --packages-select
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.074s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/joanna/ros2_ws/install
+[1.077s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[1.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.336s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.338s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.381s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.438s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joanna/ros2_ws/src/my_package/build/install/local_setup.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joanna/ros2_ws/src/my_package/build/install/_local_setup_util_ps1.py'
+[1.458s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joanna/ros2_ws/src/my_package/build/install/setup.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joanna/ros2_ws/src/my_package/build/install/local_setup.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joanna/ros2_ws/src/my_package/build/install/_local_setup_util_sh.py'
+[1.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joanna/ros2_ws/src/my_package/build/install/setup.sh'
+[1.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joanna/ros2_ws/src/my_package/build/install/local_setup.bash'
+[1.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joanna/ros2_ws/src/my_package/build/install/setup.bash'
+[1.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joanna/ros2_ws/src/my_package/build/install/local_setup.zsh'
+[1.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joanna/ros2_ws/src/my_package/build/install/setup.zsh'

@@ -1,0 +1,12 @@
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/install/local.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/install.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/list_install_components.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/edit_cache.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/test.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/install/strip.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/publisher_node.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/talker.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/model_push.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/my_package_uninstall.dir
+/home/joanna/ros2_ws/src/build/my_package/CMakeFiles/uninstall.dir

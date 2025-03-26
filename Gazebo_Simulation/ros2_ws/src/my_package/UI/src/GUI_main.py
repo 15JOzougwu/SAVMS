@@ -34,8 +34,6 @@ from MainUI import Ui_MainWindow
 from VehicleDiagnostics import Ui_Vehicle_Diagnostics, CompassWidget
 from Sensors import Ui_Sensors, Velodyne_Plot, RPLIDAR_Plot, Ultrasonic_Plot
 from Control import Ui_Control
-from Select_Sensor import Ui_Select_Sensor
-from RPLIDAR_Data import Ui_RPLIDARData
 
 #####################################################################
 # UI control of the main window
